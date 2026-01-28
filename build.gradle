@@ -1,0 +1,18 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.tuempresa.limpiezafm8"
+        minSdk 30
+        targetSdk 34
+    }
+}
+
+dependencies {
+    implementation "androidx.work:work-runtime-ktx:2.9.0"
+}
